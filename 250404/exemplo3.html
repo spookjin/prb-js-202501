@@ -20,6 +20,8 @@
             background-color: black;
             color: #ab20fd;
         }
+        
+
 
     </style>
     <title></title>
@@ -30,11 +32,13 @@
 
         <script>
             var produto = prompt("informe o nome do produto:");
-            var descricao = prompt("informe a descricao do produto")
-            var preco = prompt("informe o preço do produto")
-            document.write(<h1 class = "titulo" $(produto)</h1>);
-            document.write(<article> class = "descricao" $(produto)</article>);
-            document.write(<h1 class = "titulo" $(produto)<h1>);
+            var descricao = prompt("informe a descricao do produto");
+            var preco = prompt("informe o preço do produto");
+
+            document.write("<img src="/imagem">);
+            document.write(`<h1 class = "titulo"> ${produto}</h1>`);
+            document.write(`<article class = "descricao"> ${descricao}</article>`);
+            document.write(`<aside class = "titulo">R$ ${preco}</aside>`);
         </script>
 
     </div>
